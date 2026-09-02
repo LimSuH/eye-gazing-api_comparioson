@@ -12,14 +12,15 @@ python -m pip install -r requirements.txt
 python run.py
 ```
 
-터미널의 **HTTP server READY** 메시지가 뜬 뒤 다음 로컬 호스트 접속
-**http://127.0.0.1:8765/** 
-**http://localhost:8765/** 
+터미널의 **HTTP server READY** 메시지가 뜬 뒤 다음 로컬 호스트 접속  
+**http://127.0.0.1:8765/**  
+**http://localhost:8765/**  
 
+</br>
 
 ### 시작
 웹캠 권한 허용 후 9점 보정 실행
 파란 점을 보고 SPACE 혹은 클릭, 다음 점에서도 반복합니다.
 
-완료 후 **EyeTrax / GazeFollower / EyeGestures / WebGazer** 버튼으로 시선 추적 API를 바꿀 수 있습니다.
+완료 후 **EyeTrax / GazeFollower / EyeGestures / WebGazer** 버튼으로 시선 추적 API를 바꿀 수 있습니다.  
 WebGazer 선택 시 추가 보정이 필요할 수 있습니다.
