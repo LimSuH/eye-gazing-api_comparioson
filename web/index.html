@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gaze Compare · 한 번의 보정</title><script src="diagnostics.js"></script><link rel="stylesheet" href="style.css"><link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script defer src="vendor/webgazer.js"></script><script type="module" src="app.js"></script></head>
+<body>
+<canvas id="gazeLayer" aria-hidden="true"></canvas>
+<main id="controls">
+  <div class="eyebrow">LOCAL WEBCAM / SHARED CALIBRATION</div>
+  <h1>시선 추적 비교<span>한 번 보정 · 네 엔진 전환</span></h1>
+  <p class="intro">같은 프레임과 목표 좌표로 네 모델을 보정합니다.<br><strong>WebGazer 추가 학습 ON:</strong> 선택 중 클릭·커서 이동으로 갱신합니다.</p>
+  <div class="toolbar"><button id="start" class="primary" disabled>시작 · 9점 보정</button><button id="recalibrate" disabled>재보정</button><button id="stop" disabled>카메라 종료</button></div>
+  <div class="camera-options"><select id="camera" aria-label="카메라"><option value="">기본 웹캠</option></select><button id="devices">카메라 목록</button></div>
+  <div class="engine-grid" role="group" aria-label="시선 추적 엔진">
+    <button class="engine selected" data-engine="eyetrax"><b>01 · EyeTrax</b><span>0.4.0 · Ridge</span></button>
+    <button class="engine" data-engine="gazefollower"><b>02 · GazeFollower</b><span>1.0.2 · MGazeNet + SVR</span></button>
+    <button class="engine" data-engine="eyegestures"><b>03 · EyeGestures</b><span>3.2.4 · v3 + Ridge</span></button>
+    <button class="engine" data-engine="webgazer"><b>04 · WebGazer</b><span>3.5.3 · 온라인 Ridge</span></button>
+  </div>
+  <div id="lockStatus" class="lock">보정 전 · 엔진 전환은 공통 보정 후 가능합니다.</div>
+  <p id="onlineStatus" class="hint"></p>
+  <div class="readout"><strong id="activeName">EyeTrax</strong><span id="coordinates">—</span></div>
+  <p id="trackingStatus">시작 버튼을 누르고 카메라 접근을 허용하세요.</p>
+  <p id="message" role="status"></p>
+  <p class="hint">WebGazer 선택 후 빈 공간의 커서를 보면서 클릭·이동하세요. 관리 버튼은 학습에서 제외합니다.<br>전체화면 안의 응시점을 표시합니다. OS의 다른 앱 위에 뜨는 오버레이는 아닙니다.<br>청록색은 보정 시 고정 윤곽, 흰색은 현재 머리 윤곽입니다.</p>
+</main>
+<section id="previewPanel" aria-label="기준 자세와 현재 웹캠">
+  <div class="preview-title">기준 자세 <span>항상 표시 · 자동 갱신 없음</span></div>
+  <div id="previewStack"><video id="video" autoplay playsinline muted></video><canvas id="referenceLayer"></canvas></div>
+  <div id="poseStatus">첫 공통 보정 프레임에서 머리·실루엣을 고정합니다.</div>
+</section>
+<div id="calibrationHUD" hidden><strong id="calibrationTitle">9점 보정</strong><p id="calibrationInfo"></p><button id="capture">현재 점 수집 · SPACE</button><button id="cancel">중지</button></div>
+<button id="target" hidden aria-label="보정 목표점"></button>
+</body></html>
