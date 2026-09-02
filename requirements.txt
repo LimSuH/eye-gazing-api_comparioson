@@ -1,0 +1,16 @@
+-c constraints.txt
+# One Python 3.11 (64-bit) environment for all three Python engines.
+# WebGazer JS/WASM and first-run model assets are included in the ZIP.
+eyetrax==0.4.0
+gazefollower==1.0.2
+eyeGestures==3.2.4
+mediapipe==0.10.21
+numpy==1.26.4
+MNN==3.6.1
+opencv-python==4.11.0.86
+opencv-contrib-python==4.11.0.86
+scikit-learn==1.6.1
+scipy==1.15.3
+pandas==2.2.3
+pygame==2.6.1
+screeninfo==0.8.1

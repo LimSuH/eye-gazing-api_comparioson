@@ -1,0 +1,377 @@
+{
+  "format": 1,
+  "revision": "2026-09-02-visible-calibration-targets-1",
+  "note": "Sizes and hashes include intentionally empty upstream files. Python interpreter and pip wheels are not bundled.",
+  "files": [
+    {
+      "path": "CHANGES.md",
+      "bytes": 6561,
+      "sha256": "e65ebd3b7bb0b6cdd4871cfb66bf72b22a43a5de046184e3638acad93f0dcacd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 30486,
+      "sha256": "8b77b1ef43e4ea5e6c404d32965768fc638f1cc6bc34a724ed73fbfeca3b0018"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 5530,
+      "sha256": "033673cfc26f7386c4a5486127c89e9717488ac19ae334a0e7dc27eec2ecce49"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 6049,
+      "sha256": "b104b6d7015956c2eb7f0494890573bd6d35935e396a375c1d669e96435e4789"
+    },
+    {
+      "path": "build_zip.py",
+      "bytes": 2569,
+      "sha256": "328247625e03c5be3a14dd8f20dd90a83c457a5aac592968a4b02af0a40ad77f"
+    },
+    {
+      "path": "constraints.txt",
+      "bytes": 850,
+      "sha256": "3eec5f627d4204b39db49d0664284fc318eb63597d29b410e562b221d73333f7"
+    },
+    {
+      "path": "doctor.py",
+      "bytes": 1643,
+      "sha256": "c29104ea60f3479f6b33f7b7423fbbb2a0ce3290005f092aef4267fbba050006"
+    },
+    {
+      "path": "environment.yaml",
+      "bytes": 119,
+      "sha256": "898fe2c5f2658ccb73dff348ae0197324b42d5ff8e0ddc12ec46af7acc813ab4"
+    },
+    {
+      "path": "gaze_compare/__init__.py",
+      "bytes": 69,
+      "sha256": "3d1f6866bf148a5e6ec04ce5e7d4ef0fbe6b69adef3720ddb1207019eff67163"
+    },
+    {
+      "path": "gaze_compare/backends/__init__.py",
+      "bytes": 585,
+      "sha256": "7d3b729d780b2edf3d82a52bb0a63f3068cf287f35ebfccf30ed96ed7bba4463"
+    },
+    {
+      "path": "gaze_compare/backends/base.py",
+      "bytes": 557,
+      "sha256": "39c81014f745e89091fb3f209570e66e4647800ba5d409a10cff358f8156b090"
+    },
+    {
+      "path": "gaze_compare/backends/eyegestures_backend.py",
+      "bytes": 2406,
+      "sha256": "2ce1397a6544bebe498f1d927351ea5ba6d88305db0bf6e0d955fde2d8bc870c"
+    },
+    {
+      "path": "gaze_compare/backends/eyetrax_backend.py",
+      "bytes": 1371,
+      "sha256": "a834f451ec21257fe014139d0e7a1dc05d4edfe8031d2fa79b45a3faf93b64bd"
+    },
+    {
+      "path": "gaze_compare/backends/eyetrax_memory.py",
+      "bytes": 2358,
+      "sha256": "4d80860df6d7c79ae6801125cdd1e2221ce6ca9eec73a7067fc6b5473bbb192e"
+    },
+    {
+      "path": "gaze_compare/backends/gazefollower_backend.py",
+      "bytes": 3546,
+      "sha256": "65f39bc5e1f91e04af087e2a29920bc6233ab5f956c075dfc4f6f55915e8ae43"
+    },
+    {
+      "path": "gaze_compare/frame_replies.py",
+      "bytes": 1792,
+      "sha256": "cf06d4953facf552d839f2b42947c757f03f2d0c025248a0c0fabccacca42350"
+    },
+    {
+      "path": "gaze_compare/protocol.py",
+      "bytes": 1651,
+      "sha256": "aa2304f398b19ced16ed9b20ea4755b7caa3a3b7766320dbbb0f20da4a791426"
+    },
+    {
+      "path": "gaze_compare/reference.py",
+      "bytes": 2102,
+      "sha256": "cbe28f7a8a2158982b2eef4ce6000cb924200fe5a29b9e823e7169d55a9b6fad"
+    },
+    {
+      "path": "gaze_compare/results.py",
+      "bytes": 6450,
+      "sha256": "5d7d00833da5bf49f8043319c8ad8f9d1098655a5c39eb0890289f1283a471dc"
+    },
+    {
+      "path": "gaze_compare/runtime_diagnostics.py",
+      "bytes": 6143,
+      "sha256": "043c104cdd26fe103ce549104e440c1eff22981eb97f724cc6f6fe7001005bf4"
+    },
+    {
+      "path": "gaze_compare/session.py",
+      "bytes": 11188,
+      "sha256": "4be368cd72b8a5d08c0af53de2ee5b32c69bfbc06a49d9f9ac5997e6beecafe2"
+    },
+    {
+      "path": "gaze_compare/webserver.py",
+      "bytes": 13825,
+      "sha256": "07e1baedafa6fd8c9c633b7ca7137c97a982ba05f265cc510a13df3b7a452a8a"
+    },
+    {
+      "path": "launcher_common.py",
+      "bytes": 595,
+      "sha256": "c24f650f6bac01465a59719a1e7fb1333c7783736b534bc323a0cb1b3150477b"
+    },
+    {
+      "path": "models/gazefollower/base.mnn",
+      "bytes": 6245556,
+      "sha256": "2f96b95275fe6d7b79e98df3237ebb96e15ef5522c96968f08167da7e1954a96"
+    },
+    {
+      "path": "models/mediapipe/face_landmarker.task",
+      "bytes": 3758596,
+      "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 395,
+      "sha256": "22d17bcec93554a9f2225fe9b0ec480e870a7d4cb95d93a323d778677c7d8a47"
+    },
+    {
+      "path": "run.py",
+      "bytes": 1069,
+      "sha256": "95e1242685d91de596b3005d3e2f96677cae6017824c2fc5312ed437ea6fa2d5"
+    },
+    {
+      "path": "setup_envs.py",
+      "bytes": 4566,
+      "sha256": "f89044b42671b8d4cc8dbde355c13bca4aeca70b57550e210e218a56f132f249"
+    },
+    {
+      "path": "tests/test_bundle.py",
+      "bytes": 2276,
+      "sha256": "7eb2586060e55111d5feee190e52311fcc59a01b468e6633443506ab40994792"
+    },
+    {
+      "path": "tests/test_calibration_layout.py",
+      "bytes": 2893,
+      "sha256": "dbc653ad327d349d61052e7e8c48182edeab71eb8c90e22f79e11923e8e898f7"
+    },
+    {
+      "path": "tests/test_eyetrax_memory.py",
+      "bytes": 6823,
+      "sha256": "1ec4830bac93fded837195160bf66c966198f4d9cd71645f034fd9da24e03d99"
+    },
+    {
+      "path": "tests/test_frame_replies.py",
+      "bytes": 10527,
+      "sha256": "b7da1c3ec7fc51f5bf756fc6b850d79555bc3915092017d2667f98d85ae0dec4"
+    },
+    {
+      "path": "tests/test_gazefollower_logging.py",
+      "bytes": 3539,
+      "sha256": "89cbe8d9eb23b731186c62b91ebbd82a3780c9ff35bae066c877667ac3b0956c"
+    },
+    {
+      "path": "tests/test_health.py",
+      "bytes": 2588,
+      "sha256": "c442631150e11837b3285975985c60ea9932898542df37e3b938b59e9ab0cebc"
+    },
+    {
+      "path": "tests/test_network_diagnostics.mjs",
+      "bytes": 13390,
+      "sha256": "75bcdb1d5bc5fa78023291c7fe1b0119d830c3a4aa3dd91a3702e2b80201f3cd"
+    },
+    {
+      "path": "tests/test_offline_assets_restore.py",
+      "bytes": 1407,
+      "sha256": "82f0b4bbdc8531879aa5fe362718c606acc36983575f26ee3c09ba653b5c02d9"
+    },
+    {
+      "path": "tests/test_runtime_diagnostics.py",
+      "bytes": 5612,
+      "sha256": "0532228f67bb373525f4bbe8181fd7c5d6bb6a73ea6ebe7696e5e76ebd7a9481"
+    },
+    {
+      "path": "tests/test_shared_session.py",
+      "bytes": 6929,
+      "sha256": "5f534f886da6cc8bd3a9bb0dd148bb0693659a1a5e5ed4a584d432a4123a75e6"
+    },
+    {
+      "path": "tests/test_webgazer_math.mjs",
+      "bytes": 4588,
+      "sha256": "5427531987bedfbf7f8f333eb8436e3452f57b2b5268df6fa1f59e43f8b50065"
+    },
+    {
+      "path": "third_party/README.md",
+      "bytes": 2098,
+      "sha256": "ab2b87e7a5ab35433fe71af895bc899b22f5d6401b88859f19eae460427aabf3"
+    },
+    {
+      "path": "third_party/licenses/EyeTrax-MIT.txt",
+      "bytes": 1065,
+      "sha256": "dffadbb9e0e2b9024c2849f48470854bd46374e22c03db72406b6cbab975b3f1"
+    },
+    {
+      "path": "third_party/licenses/GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "third_party/licenses/GazeFollower-CC-BY-NC-SA.txt",
+      "bytes": 20848,
+      "sha256": "9e502ba75fd0fd30cea5497b438a4bc12f07f02bc932a7a6041fd6a18b8f46a0"
+    },
+    {
+      "path": "third_party/licenses/MediaPipe-LICENSE.txt",
+      "bytes": 12331,
+      "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8"
+    },
+    {
+      "path": "third_party/sources/eyetrax_gaze_0.4.0.py",
+      "bytes": 10380,
+      "sha256": "920738d4b485ab67ba23c6b249afb03094e7cf66f5011aa7fb72ae22915a27c2"
+    },
+    {
+      "path": "third_party/sources/webgazer-3.5.3.tgz",
+      "bytes": 22515267,
+      "sha256": "ddb577d3b971ce62018cce17e197546fcdc3db9eb51b57cf995b7ca777ca2443"
+    },
+    {
+      "path": "verify_bundle.py",
+      "bytes": 4969,
+      "sha256": "5ede7c3c4ff612be371e263359bd79b582ea181ab56d3ef4de3b31ffae9c012c"
+    },
+    {
+      "path": "web/app.js",
+      "bytes": 19238,
+      "sha256": "46ac85c50664229b1c010cce8e0b04dacaf32d875d78a04ff6e62014d80d3e36"
+    },
+    {
+      "path": "web/diagnostics.js",
+      "bytes": 11332,
+      "sha256": "a858ee0a4ba2fbb758a630224abed72af907bb014b60b6b0339b50e64faab35d"
+    },
+    {
+      "path": "web/favicon.svg",
+      "bytes": 251,
+      "sha256": "2bce75178729fa4d74b89e8126cf6225ad6b0cba0e5fba206d5896f0e4a66300"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 3203,
+      "sha256": "2c2a431a700a10d4f05fbd91c9a7de9b4f5ee7657969b022fcad7f1a06caea55"
+    },
+    {
+      "path": "web/mediapipe/face_mesh/README.md",
+      "bytes": 389,
+      "sha256": "454445fb86946504e5f9e43ca9fd2650ebaa77b50328f0cfd4a953f04a12601d"
+    },
+    {
+      "path": "web/mediapipe/face_mesh/face_mesh.binarypb",
+      "bytes": 939,
+      "sha256": "139546bf05aebb33e2611b6b945f3a1629c316ca924e33cec1547c85ddef9f53"
+    },
+    {
+      "path": "web/mediapipe/face_mesh/face_mesh.js",
+      "bytes": 65044,
+      "sha256": "a1c69dd75610526040494cd5fdc5ce0882f520184632ab3bf08d5ae6889fe7b0"
+    },
+    {
+      "path": "web/mediapipe/face_mesh/face_mesh_solution_packed_assets.data",
+      "bytes": 3986256,
+      "sha256": "dbe5905c582c0462cdaea17e7e6ecea92edaa8cccc515c5e2e7291f2cbb5fb99"
+    },
+    {
+      "path": "web/mediapipe/face_mesh/face_mesh_solution_packed_assets_loader.js",
+      "bytes": 9126,
+      "sha256": "fd8614e85cf1f7ecf8ea371ec088ae0e85941cd6155e8b80330175e8129b58af"
+    },
+    {
+      "path": "web/mediapipe/face_mesh/face_mesh_solution_simd_wasm_bin.data",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "web/mediapipe/face_mesh/face_mesh_solution_simd_wasm_bin.js",
+      "bytes": 330187,
+      "sha256": "e331fd5b355adcf08b92b74417e9437d5877d2a9acace8cac1d6c678785b3f57"
+    },
+    {
+      "path": "web/mediapipe/face_mesh/face_mesh_solution_simd_wasm_bin.wasm",
+      "bytes": 6161697,
+      "sha256": "fb9e9cfe8b83a914e40eab2efd3b0d92a61f82a7c968589f223ab2a7e331d314"
+    },
+    {
+      "path": "web/mediapipe/face_mesh/face_mesh_solution_wasm_bin.js",
+      "bytes": 330182,
+      "sha256": "68dcacddb41013a2e23860565e0e1103c7f6865c722d3bfccdf6f9f7cc717fdf"
+    },
+    {
+      "path": "web/mediapipe/face_mesh/face_mesh_solution_wasm_bin.wasm",
+      "bytes": 6084312,
+      "sha256": "54522fa25c505bf094242f969b4e4919125eb0dadccb568f2af171bbd65865f9"
+    },
+    {
+      "path": "web/mediapipe/face_mesh/index.d.ts",
+      "bytes": 6656,
+      "sha256": "0746fb8d6216b06a23bd560093952065ef3a2c6087d9520b6342d810744e3196"
+    },
+    {
+      "path": "web/mediapipe/face_mesh/package.json",
+      "bytes": 691,
+      "sha256": "26d9334f6076a587092ee7a42d1575dff02b5462e99c7e64a79eda620c2623e8"
+    },
+    {
+      "path": "web/package.json",
+      "bytes": 103,
+      "sha256": "8db049a1c248cd52c0bcb915fa2e737eb1f176fe568c52709b23ec252bdf91f1"
+    },
+    {
+      "path": "web/style.css",
+      "bytes": 3609,
+      "sha256": "41f10f4e18ef732fe1917cf208c55335a1558899cf19e6a22e327d2d5e264f11"
+    },
+    {
+      "path": "web/vendor/WebGazer-LICENSE.md",
+      "bytes": 732,
+      "sha256": "b13be3f2b49a9fc6efb72a7201061e4b77da4a2dfb2c2b0e89d625295c4398f6"
+    },
+    {
+      "path": "web/vendor/webgazer-src/mat.mjs",
+      "bytes": 13412,
+      "sha256": "040d515059498cbc793a0945bccca1388da47ca881609c1c90be2a1c5d1db5e6"
+    },
+    {
+      "path": "web/vendor/webgazer-src/params.mjs",
+      "bytes": 1058,
+      "sha256": "7a9f44c6fee944fc4a8b50e966b6375b6ba1f4b8c8f2423f2f53141c0e1398f6"
+    },
+    {
+      "path": "web/vendor/webgazer-src/ridgeReg.mjs",
+      "bytes": 2879,
+      "sha256": "4fcdca0f53c76037d2f6552677205b19d9405d49fcad041fa0339d75792ef74b"
+    },
+    {
+      "path": "web/vendor/webgazer-src/util.mjs",
+      "bytes": 12364,
+      "sha256": "72420815b09f44418e79362696341051b43242d2b2cc35d17435b7f30be243af"
+    },
+    {
+      "path": "web/vendor/webgazer-src/util_regression.mjs",
+      "bytes": 8735,
+      "sha256": "bf8767b59f0d183e0b33e3918e5c5d4c3cdf713ecc05d68a2d3e5977749126bb"
+    },
+    {
+      "path": "web/vendor/webgazer.js",
+      "bytes": 1895169,
+      "sha256": "e276d085eb490b5ba65481c368371be03b1a358d12d95336af0a8239f643f8e0"
+    },
+    {
+      "path": "web/vendor/webgazer.js.map",
+      "bytes": 16003694,
+      "sha256": "0bb7a73185d734b93ba98f0576a9f46c55122996a59f9ad89e1e146a0e1b3534"
+    },
+    {
+      "path": "web/webgazer-adapter.js",
+      "bytes": 4827,
+      "sha256": "03ee472cbd12d1e18c3669cbbaaee11597215c7a3d2c923732ceeac0a1615c1b"
+    }
+  ]
+}
